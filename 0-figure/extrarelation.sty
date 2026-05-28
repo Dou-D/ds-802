@@ -1,0 +1,34 @@
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{extrarelation}
+
+\RequirePackage{amsmath}
+
+\RequirePackage{trimclip}
+
+%\makeatletter
+\newcommand{\joinsubseteq}{%
+  \mathrel{\hbox{\clipbox{{0.45\width} 0 0 0}{$\m@th\subseteq$}}}%
+}
+\newcommand{\xsubseteq}[2][]{%
+  \ext@arrow 3095 \subseteqfill@{#1}{#2}%
+}
+\newcommand{\subseteqfill@}{\arrowfill@\subseteq\joinsubseteq\joinsubseteq}
+\newcommand{\joinsupseteq}{%
+  \mathrel{\hbox{\clipbox{0 0 {0.45\width} 0}{$\m@th\supseteq$}}}%
+}
+\newcommand{\xsupseteq}[2][]{%
+  \ext@arrow 0359 \supseteqfill@{#1}{#2}%
+}
+\newcommand{\supseteqfill@}{\arrowfill@\joinsupseteq\joinsupseteq\supseteq}
+%\makeatletter
+
+
+\newcommand{\joinleqslant}{%
+  \mathrel{\hbox{\clipbox{{0.45\width} 0 0 0}{$\m@th\leqslant$}}}%
+}
+\newcommand{\xleqslant}[2][]{%
+  \ext@arrow 3095 \leqslantfill@{#1}{#2}%
+}
+\newcommand{\leqslantfill@}{\arrowfill@\leqslant\joinleqslant\joinleqslant}
+\endinput

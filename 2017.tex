@@ -1,0 +1,224 @@
+\chapter{2017}
+\section*{一、选择题(本大题共 20 小题,每小题 2 分,共 40 分)}
+
+1. 下面程序段的时间复杂度是 (   )。
+\begin{lstlisting}[language=C, basicstyle=\ttfamily]
+for(i = 0;i < n;i++)
+    for(j = 1;j < m;j++)
+        A[i][j] = 0;
+\end{lstlisting}
+
+A. O(n) B. \(O\left( {m + n + 1}\right)\) C. \(\mathrm{O}\left( {\mathrm{m} + \mathrm{n}}\right) \;\) D. \(\mathrm{O}\left( {{\mathrm{m}}^{ * }\mathrm{n}}\right)\)
+
+2. 链表不具有的特点是 (   )。
+
+A. 可随机访问任一元素 B. 插入、删除不需要移动元素
+
+C. 不必事先估计存储空间 D. 所需空间与线性表长度成正比
+
+3. 若某栈的输入序列为 \(1,2,3,\ldots ,\mathrm{n}\) ,输出序列的第一个元素为 \(\mathrm{n}\) ,则第 2 个输出元素为(   )。
+
+A. 1 B. n-1 C. n D. 都有可能
+
+4. 判定一个循环队列 \(\mathrm{Q}\) (最多元素为 \(\mathrm{m}\) 个) 为满队列的条件是 (   )。
+
+A. Q. front \(=\) Q. rear B. Q. front \(! =\) Q. rear
+
+C. Q. front \(= \left( {\text{ Q. rear } + 1}\right) \% \mathrm{\;m}\) D. Q.front \(! = \left( {\text{ Q.rear } + 1}\right) \% \mathrm{\;m}\)
+
+5. 设有两个串 \(\mathrm{T}\) 和 \(\mathrm{P}\) ,求 \(\mathrm{P}\) 在 \(\mathrm{T}\) 中首次出现的位置的串运算称作 (   )。
+
+A. 联结 B. 求子串
+
+C. 字符定位 D. 子串定位
+
+6. 将一个 \(\mathrm{A}\left\lbrack  {10}\right\rbrack  \left\lbrack  {10}\right\rbrack\) (下标从 0 开始计算)的矩阵按行优先顺序存放,每个元素占 4 个存储单元,并且 A[0][5]的存储地址是 1020,则 A[7][2]的地址是(   )。
+
+A. 1000 B. 1020 C. 1108 D. 1288
+
+7. 一棵含有 18 个结点的二叉树的高度至少为(   )。
+
+A. 3 B. 4 C. 5 D. 6
+
+8. 已知某非空二叉树采用顺序存储结构, 树中结点的数据信息按完全二叉树的层次序列依次存放在一个一维数组中, 即
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\phantom{X} & A & B & C & \phantom{X} & D & E & F & \phantom{X} & \phantom{X} & G & \phantom{X} & \phantom{X} & H & \phantom{X} & \phantom{X} \\
+\cline{1-16}
+\hline
+\end{tabular}
+\end{center}
+
+则该二叉树的后序遍历序列为(   )。
+
+A. G, D, B, E, F, H, C, A B. G, B, D, E, H, C, F, A
+
+C. G, D, B, H, E, F, C, A D. B, G, D, E, H, C, F, A
+
+9. 看不清，没有上传
+% 9. 在下列树中,(   )是完全二叉树。 注: 所有答案必须写在答题纸上, 试卷上作答无效 ! 重庆邮电大学 2017 年攻读硕士学位研究生入学考试试题
+
+% \begin{center}
+% \includegraphics[width=1.0\textwidth]{images/bo_d35oef3ef24c73b45250_1_146_194_1357_251_0.jpg}
+% \end{center}
+% \hspace*{3em} 
+
+% A
+
+% E
+
+% 0
+
+% D
+
+10. 有 n 个球队参加的某联赛按单循环方式进行比赛,那么共需要进行(   ) 场比赛。
+
+A. \(\mathrm{n}\left( {\mathrm{n} - 1}\right) /2\) B. n C. n(n-1) D. \(\mathrm{n} + 1\)
+
+11. 下列排序算法中,时间复杂度不受数据初始状态影响,恒为 \(\mathrm{O}\left( {{\mathrm{n}}^{ * }{\log }_{2}{}^{\mathrm{n}}}\right)\) 的是 (   )。
+
+A. 快速排序 B. 冒泡排序 C. 直接选择排序 D. 堆排序
+
+12. 若长度为 \(\mathrm{n}\) 的线性表采用顺序存储结构,在其第 \(\mathrm{i}\) 个位置插入一个元素的时间复杂度为(   )(1<=i<=n+1)。
+
+A. \(\mathrm{O}\left( 0\right)\) B. O(1) C. O(n) D. O(n2)
+
+13. 任何一个无向连通图的最小生成树 (   )。
+
+A. 只有一棵 B. 有一棵或多棵 C.一定有多棵 D. 可能不存在
+
+14. 具有 n 个结点的满二叉树,其叶子结点有(   )个。
+
+A. \(\mathrm{n}/2\) B. \(\left( {n - 1}\right) /2\) C. \(\left( {\mathrm{n} + 1}\right) /2\) D. n/2-1
+
+15. 下列排序方法中不稳定的是(   )。
+
+A. 归并排序 B. 快速排序 C. 气泡排序 D. 直接插入排序
+
+16. 如下图,哪一项是该图的拓扑排序 (   )
+
+\begin{center}
+\includegraphics[width=0.3\textwidth]{images/2017/choice_16.jpg}
+\end{center}
+\hspace*{3em} 
+
+A.1,3,2,4,5 B.1,2,3,4,5
+
+C.1,2,4,3,5 D.1,2,3,5,4
+
+17. 在所有排序方法中,关键字比较的次数与记录的初始排列次序无关的是 (   )。
+
+A. 希尔排序 B. 起泡排序 C. 插入排序 D. 选择排序
+
+18. 若用一个大小为 6 的数组来实现循环队列, 且当前 rear 和 front 的值分别为 0 和 3 。当从队列删除两个元素, 再加入一个元素后, rear 和 front 的值分别为(   )。
+
+A. 1 和 5 B. 2 和 4 C. 4 和 2 D. 5 和 1
+
+19. 已知一个图如下所示,从顶点 \(\mathrm{a}\) 出发进行深度优先遍历可能得到的序列为 (   )。
+
+\begin{center}
+\includegraphics[width=0.4\textwidth]{images/2017/choice_19.jpg}
+\end{center}
+\hspace*{3em} 
+
+A. acefbd B. acbdfe C. acbdef D. acdbfe
+
+20. 若无向图 \(\mathrm{G}\) 有 7 个顶点,至少需要(   )条边,才能保证该图一定是连通图 (边可依附任两顶点, 但无重复边和自环)。
+
+A. 6 B. 16 C. 31 D. 42
+
+\section*{二、填空题(本大题共 10 小题,每小题 3 分,共 30 分)}
+
+1. 有向图 G 用邻接矩阵 A[1..n,1..n]存储,其第 i 行的所有非 0 元素的个数等于 顶点 \(\mathrm{i}\) 的\_\_\_\_\_。
+
+2. 设栈 \(\mathrm{S}\) 和队列 \(\mathrm{Q}\) 的初始状态皆为空,元素 \(\mathrm{a}1,\mathrm{\;a}2,\mathrm{\;a}3,\mathrm{\;a}4,\mathrm{\;a}5\) 和 \(\mathrm{a}6\) 依次通过一个栈,一个元素出栈后即进入队列 \(\mathrm{Q}\) ,若6个元素出队列的顺序是 \(\mathrm{a}3\) , a5 \(,\mathrm{a}4,\mathrm{a}6,\mathrm{a}2,\mathrm{a}1\) 则栈 \(\mathrm{S}\) 至少应该容纳\_\_\_\_\_个元素。
+
+3. 在一棵二叉树中,度为 0 的结点的个数为 \(\mathrm{n}0\) ,度为 1 的结点的个数为 \(\mathrm{n}1\) , 则该二叉树共有\_\_\_\_\_个结点。
+
+4. 某二叉树的先序遍历序列是 ABDGCEFH, 中序遍历序列是 DGBAECHF, 那么该二叉树的后序遍历序列是\_\_\_\_\_。
+
+5. 表长为 \(\mathrm{n}\) 的线性表,当在任何位置上删除一个元素的概率相等时,删除一个元素需移动元素的平均个数为\_\_\_\_\_。
+
+6. 6 阶 B-树 (B-Tree) 中, 每个结点至多包含 5 个关键码, 除根和叶结点外, 每个结点至少包含\_\_\_\_\_个关键码。
+
+7. 已知完全二叉树的第 10 层(根结点为第 1 层)总共只有 5 个结点, 则其叶子结点数是\_\_\_\_\_。
+
+8. 用顺序存储的方法将完全二叉树中的所有结点逐层存放在数组 \(\mathrm{R}\left\lbrack  {0,..,\mathrm{n} - 1}\right\rbrack\) (下标从 0 开始计) 中,结点 \(\mathrm{R}\left\lbrack  \mathrm{i}\right\rbrack\) 若有双亲节点,则双亲结点的下标是\_\_\_\_\_。
+
+9. 某表达式二叉树按先序遍历的结果为 a, b, c, d,-,*,+, e, f,-,令 a = 6, b = 3, c = 4, d = 2, \(\mathrm{e} = 5,\mathrm{f} = 1\) ,则该表达式的值等于\_\_\_\_\_。
+
+10. G 为无向图,如果从 \(\mathrm{G}\) 的某个顶点出发进行一次遍历,即可访问图的每个顶点,则该图一定是\_\_\_\_\_图。
+
+\section*{三、问答题(本大题共 7 小题,每小题 8 分,共 56 分)}
+
+1. 现有森林如下图, 请画出对应的二叉树。
+
+\begin{center}
+\includegraphics[width=0.4\textwidth]{images/2017/ask_1.jpg}
+\end{center}
+\hspace*{3em} 
+\vspace{10em}
+
+2. 已知某字符串 \(\mathrm{S}\) 中共有 8 种字符,各种字符分别出现 1 次、2 次、7 次、5 次、 4 次、 3 次、 4 次和 9 次,对该字符串用 \(\{ 0,1\}\) 进行前缀编码。
+
+(1)请画出对应的 Huffman 树,并给出各字符的前缀编码； 
+
+(2)请问该字符串 \(\mathrm{S}\) 的编码有多少位？
+\vspace{10em}
+
+\newpage
+3. 设一个无向网 \(\mathrm{G}\) 的邻接矩阵 \(\mathrm{A}\) 如下:
+
+\[
+A = \left\lbrack  \begin{matrix} \infty & \infty & 4 & 2 & \infty & \infty & \infty & \infty \\  \infty & \infty & \infty & \infty & 1 & 7 & \infty & \infty \\  4 & \infty & \infty & \infty & \infty & \infty & 6 & \infty \\  2 & \infty & \infty & \infty & 3 & 0 & 5 & \infty \\  \infty & 1 & \infty & 3 & \infty & \infty & \infty & 8 \\  \infty & 7 & \infty & \infty & \infty & \infty & \infty & 9 \\  \infty & \infty & 6 & 5 & \infty & \infty & \infty & \infty \\  \infty & \infty & \infty & \infty & \infty & 8 & \infty & \infty  \end{matrix}\right\rbrack
+\]
+
+(1)请根据给定的邻接矩阵 \(\mathrm{A}\) 画出网 \(\mathrm{G}\) 的图( \(\mathrm{G}\) 中顶点用 \(\mathrm{{vi}}\) 表示)；
+
+(2)如果对某个顶点的邻接点的访问顺序按序号从小到大排列,请写出从顶点 \(\mathrm{v}1\) 出发,按“深度优先”和“广度优先”搜索方法遍历网 \(\mathrm{G}\) 所得到的顶点序列; 
+
+(3)从顶点 v1 出发,按照最小生成树的 Prim 算法,画出网 \(\mathrm{G}\) 的一棵最小生成树。
+\vspace{11em}
+
+4. 对一组关键字:49, 38, 65, 97, 76, 13, 27 采用快速排序方法进行排序, 用第一关键字作支点/参考值(pivot),请写出快速排序的第一趟的交换过程。
+\vspace{10em}
+
+\newpage
+5. 设 Hash 函数为 \(\mathrm{H}\left( \mathrm{K}\right)  = \mathrm{K}{\;\operatorname{mod}\;7}\) ,哈希表的地址空间为0,1,2,3,4,5,6, 开始时哈希表为空,用二次探测再散列法解决冲突,请画出依次插入键值 9 、 14、16、6、23、12、18 后的哈希表。
+\vspace{15em}
+
+6. 已知关键字序列为40,35,25,36,70,56,依次将各元素插入到一棵初始为空的二叉排序树, 画出对应的二叉排序树。
+\vspace{15em}
+
+\newpage
+7. 已知初始序列(52,80,63,44,48,91),写出直接插入排序的各趟排序的结果。 
+\vspace{26em}
+
+\section*{四、算法设计、分析题(本大题共 2 小题, 每小题 12 分, 共 24 分)}
+
+1. 试写一算法, 对带头结点的单链表实现就地逆置。
+
+(1)结点结构定义如下:
+\begin{lstlisting}[language=C, basicstyle=\ttfamily]
+typedef struct node{ //结点类型定义
+    int data; //结点的数据域
+    struct node *next;
+}ListNode,*LinkList;
+\end{lstlisting}
+
+(2)先给出算法思想,再描述具体算法,必要时请给予注释说明；
+\vspace{20em}
+
+2. 给定某一二叉树的根结点, 请写一个算法判断该树是否为平衡二叉树。
+
+(1)二叉树用二叉链表表示, 定义如下:
+\begin{lstlisting}[language=C, basicstyle=\ttfamily]
+typedef struct tnode{
+    int key;
+    struct tnode *lchild,*rchild;
+}BinNode,*bitree;
+\end{lstlisting}
+
+(2)先给出算法思想,再描述算法,必要时给予注释说明

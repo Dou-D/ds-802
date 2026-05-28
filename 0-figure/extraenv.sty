@@ -1,0 +1,11 @@
+\usepackage{fontawesome}
+
+\newenvironment{dxercise}[1][]{
+  \refstepcounter{exer}
+  \par\noindent\makebox[-3pt][r]{
+    \scriptsize\color{purple!90}\faWarning\quad}
+    \textbf{\color{main}{\exercisename} \theexer #1 }\rmfamily}{
+    \par\ignorespacesafterend}
+    
+    
+%https://tug.ctan.org/info/symbols/comprehensive/symbols-a4.pdf

@@ -1,0 +1,91 @@
+%% Creator: Inkscape 1.1.2 (b8e25be833, 2022-02-05), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'pointwise.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{364.4803125bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.74278964)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{pointwise.pdf}}%
+    \put(0.0221379,0.02549578){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{pointwise.pdf}}%
+    \put(0.0221379,0.12085073){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-4\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{pointwise.pdf}}%
+    \put(0.0221379,0.21620567){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-3\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{pointwise.pdf}}%
+    \put(0.0221379,0.31156062){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{pointwise.pdf}}%
+    \put(0.0221379,0.40691556){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{pointwise.pdf}}%
+    \put(0.0221379,0.50227051){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{pointwise.pdf}}%
+    \put(0.0221379,0.59762545){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{pointwise.pdf}}%
+    \put(0.15383225,0.44671195){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{pointwise.pdf}}%
+    \put(0.2682623,0.44671195){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{pointwise.pdf}}%
+    \put(0.38269235,0.44671195){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}3\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{pointwise.pdf}}%
+    \put(0.4971224,0.44671195){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}4\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{pointwise.pdf}}%
+    \put(0.61155245,0.44671195){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{pointwise.pdf}}%
+    \put(0.7259825,0.44671195){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}6\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{pointwise.pdf}}%
+    \put(0.84041255,0.44671195){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}7\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{pointwise.pdf}}%
+    \put(0.97696313,0.49959546){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$x$\end{tabular}}}}%
+    \put(0.47846557,0.71915796){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\quad$\end{tabular}}}}%
+    \put(0.48350829,0.00704128){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\quad$\end{tabular}}}}%
+    \put(0.03940221,0.68055174){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$f(x)$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{pointwise.pdf}}%
+  \end{picture}%
+\endgroup%
